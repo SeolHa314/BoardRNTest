@@ -6,12 +6,12 @@ import {
     View,
 } from 'react-native';
 
-import { type ArticleItem } from '../model/Article';
+import { type ArticleItem } from '../models/Article';
 import { Article } from '../fragment/Article';
 import { styles } from '../style/StyleSheet';
-import { BoardScreenProps } from '../model/Navigation';
+import { BoardScreenProps } from '../models/Navigation';
 
-import TestData from '../model/TestData.json';
+import TestData from '../models/TestData.json';
 
 export const BoardScreen = ({ navigation }: BoardScreenProps) => {
     const [articleData, setArticleData] = useState<ArticleItem[]>();

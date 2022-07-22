@@ -1,12 +1,10 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SafeAreaView, StatusBar, Text, View } from 'react-native';
-import { ArticleItem } from '../model/Article';
-import { ArticleScreenProps } from '../model/Navigation';
+import { ArticleItem } from '../models/Article';
+import { ArticleScreenProps } from '../models/Navigation';
 
 import { styles } from '../style/StyleSheet';
-import TestData from '../model/TestData.json';
+import TestData from '../models/TestData.json';
 
 export const ArticleScreen = ({ route }: ArticleScreenProps) => {
     const [article, setArticle] = useState<ArticleItem>();

@@ -12,9 +12,9 @@ import * as React from 'react';
 
 import { NavigationContainer, StackActions } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { BoardScreen } from './screen/BoardScreen';
-import { ArticleScreen } from './screen/ArticleScreen';
-import { RootStackParamList } from './model/Navigation';
+import { BoardScreen } from './screens/BoardScreen';
+import { ArticleScreen } from './screens/ArticleScreen';
+import { RootStackParamList } from './models/Navigation';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

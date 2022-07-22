@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Text, TouchableOpacity } from "react-native"
-import { ArticleItem } from "../model/Article"
+import { ArticleItem } from "../models/Article"
 import { styles } from "../style/StyleSheet"
 
 export const Article: FC<
